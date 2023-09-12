@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 18, 81, 0.7), rgba(0, 0, 0, 0.7)),
     url(./images/bg.jpg);
   min-height: 70vh;
   background-position: center bottom;
@@ -103,13 +103,14 @@
   #check:checked ~ .navbar {
     display: initial;
   }
-  .header {
+  .header{
     min-height: 0vh;
   }
   .header_content {
     padding: 100px 30px;
   }
-  .header_content p {
+   .header_content p{
     padding: 10px;
-  }
+
+   }
 }
